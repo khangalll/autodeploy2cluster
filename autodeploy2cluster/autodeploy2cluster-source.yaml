@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: autodeploy2cluster
+  name: flask-app
   namespace: flux-system
 spec:
   interval: 30s

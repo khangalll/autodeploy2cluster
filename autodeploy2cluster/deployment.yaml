@@ -22,8 +22,6 @@ spec:
           limits:
             memory: 512Mi
             cpu: 200m
-        securityContext:
-          allowPrivilegeEscalation: false
 ---
 apiVersion: v1
 kind: Service
